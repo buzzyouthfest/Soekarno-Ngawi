@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#e3183b">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Situs resmi Ngawi Soekarno Run. Informasi registrasi dan lokasi venue event lari di Ngawi, Jawa Timur.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ngawi Soekarno Run">
+  <meta property="og:title" content="Ngawi Soekarno Run">
+  <meta property="og:description" content="Situs resmi Ngawi Soekarno Run. Informasi registrasi dan lokasi venue event lari di Ngawi, Jawa Timur.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ngawi Soekarno Run">
+  <meta name="twitter:description" content="Situs resmi Ngawi Soekarno Run. Informasi registrasi dan lokasi venue event lari di Ngawi, Jawa Timur.">
+  <title>Ngawi Soekarno Run — Beranda Resmi</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e3183b'/%3E%3Ctext x='32' y='45' font-family='Arial, Helvetica, sans-serif' font-size='34' font-style='italic' font-weight='900' fill='%23ffffff' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://maps.googleapis.com">
+  <link rel="preconnect" href="https://maps.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;1,800;1,900&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js");</script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SportsEvent","name":"Ngawi Soekarno Run","description":"Event lari Ngawi Soekarno Run di Ngawi, Jawa Timur.","location":{"@type":"Place","name":"Venue Ngawi Soekarno Run","address":{"@type":"PostalAddress","streetAddress":"Jl. Teuku Umar No.24, Kluncing, Ketanggi","addressLocality":"Ngawi","addressRegion":"Jawa Timur","addressCountry":"ID"}}}
+  </script>
+  <style>
+    :root {
+      --red: #e3183b;
+      --red-bright: #ef2450;
+      --red-deep: #cc1232;
+      --red-dark: #9d0e28;
+      --pink: #e92a68;
+      --pink-soft: #f58b9e;
+      --ink: #1d1d1f;
+      --body-color: #3d3d40;
+      --muted: #8a8a8e;
+      --line: #ececee;
+      --font: "Archivo", Arial, Helvetica, sans-serif;
+      --ease: cubic-bezier(.22, 1, .36, 1);
+      --shadow-card: 0 30px 70px -30px rgba(30, 10, 15, .35);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 96px;
+      -webkit-text-size-adjust: 100%;
+      overflow-x: hidden;
+    }
+
+    body {
+      font-family: var(--font);
+      background: #ffffff;
+      color: var(--body-color);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button,
+    input {
+      font: inherit;
+      color: inherit;
+    }
+
+    svg {
+      display: block;
+    }
+
+    ::selection {
+      background: var(--red);
+      color: #ffffff;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--red);
+      outline-offset: 3px;
+    }
+
+    .header :focus-visible,
+    .hero :focus-visible {
+      outline-color: #ffffff;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: -80px;
+      left: 16px;
+      z-index: 100;
+      background: #ffffff;
+      color: var(--red);
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: var(--shadow-card);
+      transition: top .25s var(--ease);
+    }
+
+    .skip-link:focus {
+      top: 14px;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      height: 88px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 clamp(18px, 4vw, 32px);
+      transition: height .3s var(--ease), background .3s, box-shadow .3s;
+    }
+
+    .header.scrolled {
+      height: 66px;
+      background: rgba(157, 14, 40, .85);
+      -webkit-backdrop-filter: blur(14px);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 12px 32px -14px rgba(0, 0, 0, .4);
+    }
+
+    .icon-button {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      border: 0;
+      background: transparent;
+      color: #ffffff;
+      cursor: pointer;
+      border-radius: 12px;
+      transition: background .2s, transform .2s;
+    }
+
+    .icon-button:hover {
+      background: rgba(255, 255, 255, .15);
+    }
+
+    .icon-button:active {
+      transform: scale(.9);
+    }
+
+    .icon-button svg {
+      width: 30px;
+      height: 30px;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .menu-panel,
+    .search-box {
+      position: absolute;
+      top: calc(100% + 8px);
+      background: rgba(255, 255, 255, .97);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(227, 24, 59, .08);
+      border-radius: 16px;
+      box-shadow: 0 24px 60px -18px rgba(0, 0, 0, .35);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-10px) scale(.98);
+      transform-origin: top;
+      transition: opacity .28s var(--ease), transform .28s var(--ease), visibility .28s;
+    }
+
+    .menu-panel.show,
+    .search-box.show {
+      opacity: 1;
+      visibility: visible;
+      transform: none;
+    }
+
+    .menu-panel {
+      left: clamp(14px, 4vw, 28px);
+      width: 246px;
+      padding: 10px;
+    }
+
+    .menu-panel a {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 13px 14px;
+      border-radius: 10px;
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      transition: background .2s, color .2s, translate .2s var(--ease);
+    }
+
+    .menu-panel a svg {
+      width: 18px;
+      height: 18px;
+      stroke: currentColor;
+      stroke-width: 2.2;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      opacity: .65;
+    }
+
+    .menu-panel a:hover {
+      background: #fdf0f3;
+      color: var(--red);
+      translate: 3px 0;
+    }
+
+    .search-box {
+      right: clamp(14px, 4vw, 28px);
+      width: min(320px, calc(100vw - 36px));
+      padding: 8px;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 13px 15px;
+      border: 1px solid var(--line);
+      border-radius: 11px;
+      background: #ffffff;
+      outline: none;
+      font-size: 15px;
+      font-weight: 500;
+      transition: border-color .2s, box-shadow .2s;
+    }
+
+    .search-box input:focus {
+      border-color: var(--red);
+      box-shadow: 0 0 0 4px rgba(227, 24, 59, .14);
+    }
+
+    .search-box input::placeholder {
+      color: var(--muted);
+    }
+
+    .hero {
+      position: relative;
+      min-height: 600px;
+      height: 100vh;
+      height: 100svh;
+      max-height: 1100px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      background: radial-gradient(ellipse 90% 70% at 50% 42%, var(--red-bright) 0%, var(--red) 55%, var(--red-deep) 100%);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(140, 8, 30, .5), transparent 38%);
+      pointer-events: none;
+    }
+
+    .hero-glow {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(70px);
+      opacity: .55;
+      pointer-events: none;
+    }
+
+    .hero-glow-a {
+      width: 46vmax;
+      height: 46vmax;
+      left: -14vmax;
+      top: -16vmax;
+      background: radial-gradient(circle, rgba(255, 255, 255, .24), transparent 65%);
+      animation: float 13s ease-in-out infinite alternate;
+    }
+
+    .hero-glow-b {
+      width: 40vmax;
+      height: 40vmax;
+      right: -12vmax;
+      bottom: -14vmax;
+      background: radial-gradient(circle, rgba(255, 140, 160, .3), transparent 65%);
+      animation: float 16s ease-in-out infinite alternate-reverse;
+    }
+
+    .hero-lines {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      opacity: .16;
+      pointer-events: none;
+      animation: drift 16s ease-in-out infinite alternate;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: #ffffff;
+      padding: 0 20px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: .84;
+      transform: skewX(-12deg);
+      filter: drop-shadow(0 12px 30px rgba(110, 0, 18, .35));
+      animation: rise .9s var(--ease) .1s both;
+    }
+
+    .brand span {
+      display: block;
+    }
+
+    .brand-small {
+      font-size: clamp(17px, 4.2vw, 26px);
+      font-weight: 800;
+      font-style: italic;
+      letter-spacing: .3em;
+      margin-bottom: 12px;
+      transform: rotate(-8deg);
+      animation: fadeIn .8s ease .5s both;
+    }
+
+    .brand-main {
+      font-size: clamp(34px, 9vw, 58px);
+      font-weight: 900;
+      font-style: italic;
+      letter-spacing: -.045em;
+      white-space: nowrap;
+      text-shadow: 0 2px 0 rgba(255, 255, 255, .85);
+      animation: fadeIn .8s ease .65s both;
+    }
+
+    .brand-bottom {
+      margin-top: 12px;
+      font-size: clamp(36px, 9vw, 54px);
+      font-weight: 900;
+      font-style: italic;
+      letter-spacing: .02em;
+      animation: fadeIn .8s ease .8s both;
+    }
+
+    .scroll-down {
+      position: absolute;
+      bottom: clamp(28px, 6vh, 46px);
+      left: calc(50% - 30px);
+      z-index: 2;
+      width: 60px;
+      height: 60px;
+      display: grid;
+      place-items: center;
+      color: var(--pink-soft);
+      text-decoration: none;
+      transition: color .25s;
+      animation: rise .8s var(--ease) 1s both;
+    }
+
+    .scroll-down:hover {
+      color: #ffffff;
+    }
+
+    .scroll-down svg {
+      width: 36px;
+      height: 36px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 4.5;
+      stroke-linecap: square;
+      animation: dip 1.7s ease-in-out 1.9s infinite;
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        translate: 0 30px;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+    }
+
+    @keyframes dip {
+      0%, 100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(9px);
+      }
+    }
+
+    @keyframes float {
+      to {
+        transform: translate3d(4%, 6%, 0) scale(1.08);
+      }
+    }
+
+    @keyframes drift {
+      to {
+        translate: 2.5% 0;
+      }
+    }
+
+    @keyframes marquee {
+      to {
+        transform: translateX(-50%);
+      }
+    }
+
+    .main-content {
+      background: #ffffff;
+      padding-bottom: clamp(60px, 9vw, 90px);
+      outline: none;
+    }
+
+    .marquee {
+      position: relative;
+      z-index: 5;
+      overflow: hidden;
+      margin-top: -26px;
+      background: linear-gradient(115deg, var(--red-bright), #c40f2f);
+      border-block: 1px solid rgba(255, 255, 255, .22);
+      box-shadow: 0 14px 34px -18px rgba(160, 10, 35, .55);
+      transform: rotate(-1.2deg) scale(1.06);
+    }
+
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marquee 26s linear infinite;
+    }
+
+    .marquee:hover .marquee-track {
+      animation-play-state: paused;
+    }
+
+    .marquee-group {
+      padding: 14px 0;
+      font-size: clamp(14px, 2.4vw, 20px);
+      font-weight: 900;
+      font-style: italic;
+      letter-spacing: .14em;
+      white-space: nowrap;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1040px;
+      margin: 0 auto;
+      padding-inline: clamp(20px, 5vw, 40px);
+    }
+
+    .registration-section {
+      padding-top: clamp(56px, 9vw, 92px);
+    }
+
+    .registration-button {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      min-height: clamp(118px, 17vw, 138px);
+      padding: 0 26px;
+      background: linear-gradient(115deg, var(--red-bright) 0%, var(--red) 45%, #bd0e2e 100%);
+      color: #ffffff;
+      border: 1px solid #ed526d;
+      border-radius: 14px;
+      text-decoration: none;
+      font-size: clamp(30px, 7vw, 54px);
+      font-weight: 800;
+      font-style: italic;
+      letter-spacing: -.03em;
+      overflow: hidden;
+      box-shadow: 0 4px 14px rgba(190, 15, 45, .22), 0 24px 48px -20px rgba(227, 24, 59, .45);
+      transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+    }
+
+    .registration-button::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -80%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(100deg, transparent, rgba(255, 255, 255, .32), transparent);
+      transform: skewX(-20deg);
+      transition: left .7s var(--ease);
+    }
+
+    .registration-button:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(190, 15, 45, .26), 0 32px 64px -22px rgba(227, 24, 59, .5);
+    }
+
+    .registration-button:hover::after {
+      left: 135%;
+    }
+
+    .registration-button:active {
+      transform: translateY(-1px) scale(.985);
+    }
+
+    .registration-button:focus-visible {
+      outline-color: var(--ink);
+    }
+
+    .registration-button svg {
+      width: clamp(24px, 4vw, 36px);
+      height: clamp(24px, 4vw, 36px);
+      stroke: currentColor;
+      stroke-width: 3;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: translate .3s var(--ease);
+    }
+
+    .registration-button:hover svg {
+      translate: 7px 0;
+    }
+
+    .map-section {
+      margin-top: clamp(70px, 11vw, 110px);
+    }
+
+    .map-card {
+      position: relative;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: #f6f6f7;
+      box-shadow: var(--shadow-card);
+    }
+
+    .map-frame {
+      display: block;
+      width: 100%;
+      height: clamp(300px, 48vw, 430px);
+      border: 0;
+    }
+
+    .map-link {
+      position: absolute;
+      right: 14px;
+      bottom: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 11px 16px;
+      background: rgba(255, 255, 255, .94);
+      -webkit-backdrop-filter: blur(6px);
+      backdrop-filter: blur(6px);
+      color: var(--red);
+      font-size: 13.5px;
+      font-weight: 600;
+      border-radius: 999px;
+      text-decoration: none;
+      box-shadow: 0 10px 26px -10px rgba(0, 0, 0, .4);
+      transition: transform .25s var(--ease), box-shadow .25s;
+    }
+
+    .map-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 34px -12px rgba(0, 0, 0, .45);
+    }
+
+    .map-link svg {
+      width: 16px;
+      height: 16px;
+      stroke: currentColor;
+      stroke-width: 2.4;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .venue-section {
+      padding: clamp(80px, 12vw, 122px) 0 10px;
+      text-align: center;
+    }
+
+    .venue-pin {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 26px;
+      display: grid;
+      place-items: center;
+      border-radius: 20px;
+      background: linear-gradient(135deg, var(--red-bright), #bd0e2e);
+      color: #ffffff;
+      box-shadow: 0 16px 34px -14px rgba(227, 24, 59, .55);
+      rotate: -6deg;
+    }
+
+    .venue-pin svg {
+      width: 30px;
+      height: 30px;
+      stroke: currentColor;
+      stroke-width: 2.2;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .venue-title {
+      color: var(--pink);
+      font-size: clamp(36px, 8.5vw, 64px);
+      font-weight: 800;
+      font-style: italic;
+      letter-spacing: -.035em;
+      line-height: 1.08;
+      margin-bottom: clamp(24px, 5vw, 40px);
+      text-wrap: balance;
+    }
+
+    .venue-address {
+      max-width: 560px;
+      margin: 0 auto;
+      font-size: clamp(16px, 3.4vw, 21px);
+      line-height: 1.85;
+      text-wrap: pretty;
+    }
+
+    .footer {
+      padding: clamp(60px, 10vw, 92px) 20px 30px;
+      text-align: center;
+    }
+
+    .footer-brand {
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 900;
+      font-style: italic;
+      letter-spacing: -.02em;
+      color: var(--red);
+      transform: skewX(-8deg);
+    }
+
+    .footer-copy {
+      margin-top: 12px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .to-top {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 40;
+      width: 50px;
+      height: 50px;
+      display: grid;
+      place-items: center;
+      border: 0;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--red-bright), #bd0e2e);
+      color: #ffffff;
+      cursor: pointer;
+      box-shadow: 0 14px 34px -10px rgba(227, 24, 59, .6);
+      opacity: 0;
+      visibility: hidden;
+      translate: 0 14px;
+      transition: opacity .3s, translate .3s var(--ease), visibility .3s, transform .25s var(--ease);
+    }
+
+    .to-top.show {
+      opacity: 1;
+      visibility: visible;
+      translate: 0 0;
+    }
+
+    .to-top:hover {
+      transform: translateY(-3px);
+    }
+
+    .to-top:active {
+      transform: scale(.92);
+    }
+
+    .to-top svg {
+      width: 22px;
+      height: 22px;
+      stroke: currentColor;
+      stroke-width: 2.8;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 24px;
+      z-index: 60;
+      max-width: min(90vw, 420px);
+      padding: 13px 20px;
+      background: #1c1c1e;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 12px;
+      box-shadow: 0 20px 50px -12px rgba(0, 0, 0, .5);
+      text-align: center;
+      opacity: 0;
+      visibility: hidden;
+      translate: -50% 16px;
+      transition: opacity .3s, translate .3s var(--ease), visibility .3s;
+    }
+
+    .toast.show {
+      opacity: 1;
+      visibility: visible;
+      translate: -50% 0;
+    }
+
+    .js .reveal {
+      opacity: 0;
+      translate: 0 30px;
+      transition: opacity .8s var(--ease), translate .8s var(--ease);
+    }
+
+    .js .reveal.in-view {
+      opacity: 1;
+      translate: 0 0;
+    }
+
+    @media (min-width: 760px) {
+      .menu-panel {
+        width: 262px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+
+      html {
+        scroll-behavior: auto;
+      }
+
+      .marquee-track {
+        animation: none;
+      }
+
+      .js .reveal,
+      .brand,
+      .brand-small,
+      .brand-main,
+      .brand-bottom,
+      .scroll-down {
+        opacity: 1;
+        translate: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#konten-utama">Langsung ke konten utama</a>
+
+  <header class="header" id="header">
+
+    <button class="icon-button" id="menuButton" type="button" aria-label="Buka menu" aria-controls="menuPanel" aria-expanded="false">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M3 7h26M3 16h26M3 25h26"></path>
+      </svg>
+    </button>
+
+    <button class="icon-button" id="searchButton" type="button" aria-label="Cari" aria-controls="searchBox" aria-expanded="false">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="13.5" cy="13.5" r="9"></circle>
+        <path d="m20 20 8 8"></path>
+      </svg>
+    </button>
+
+    <nav class="menu-panel" id="menuPanel" aria-label="Navigasi utama">
+      <a href="#home">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 11.5 12 4l9 7.5"></path>
+          <path d="M5.5 10v9.5h13V10"></path>
+        </svg>
+        Home
+      </a>
+      <a href="category.html">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m15 5 4 4L8 20H4v-4Z"></path>
+          <path d="m13 7 4 4"></path>
+        </svg>
+        Registration
+      </a>
+      <a href="#lokasi">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 21s-7-5.4-7-11a7 7 0 0 1 14 0c0 5.6-7 11-7 11Z"></path>
+          <circle cx="12" cy="10" r="2.6"></circle>
+        </svg>
+        Lokasi Venue
+      </a>
+    </nav>
+
+    <form class="search-box" id="searchBox" role="search">
+      <input type="search" id="searchInput" placeholder="Cari halaman…" aria-label="Cari halaman" autocomplete="off">
+    </form>
+
+  </header>
+
+  <section class="hero" id="home">
+
+    <div class="hero-glow hero-glow-a" aria-hidden="true"></div>
+    <div class="hero-glow hero-glow-b" aria-hidden="true"></div>
+
+    <svg class="hero-lines" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none">
+        <path d="M-60 820L420 340" opacity=".5"></path>
+        <path d="M-40 940L320 560" opacity=".35"></path>
+        <path d="M60 900L560 330" opacity=".3"></path>
+        <path d="M1500 140L980 660" opacity=".5"></path>
+        <path d="M1460 70L1080 450" opacity=".3"></path>
+        <path d="M1520 280L1130 670" opacity=".35"></path>
+      </g>
+    </svg>
+
+    <div class="hero-content">
+      <h1 class="brand" aria-label="Ngawi Soekarno Run">
+        <span class="brand-small">ngawi</span>
+        <span class="brand-main">SOEKARNO</span>
+        <span class="brand-bottom">RUN</span>
+      </h1>
+    </div>
+
+    <a href="#registration" class="scroll-down" aria-label="Gulir ke bawah">
+      <svg viewBox="0 0 40 40" aria-hidden="true">
+        <path d="m5 12 15 15 15-15"></path>
+      </svg>
+    </a>
+
+  </section>
+
+  <main class="main-content" id="konten-utama" tabindex="-1">
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span class="marquee-group">NGAWI SOEKARNO RUN&#160;&#160;✦&#160;&#160;NGAWI SOEKARNO RUN&#160;&#160;✦&#160;&#160;NGAWI SOEKARNO RUN&#160;&#160;✦&#160;&#160;NGAWI SOEKARNO RUN&#160;&#160;✦&#160;&#160;</span>
+        <span class="marquee-group">NGAWI SOEKARNO RUN&#160;&#160;✦&#160;&#160;NGAWI SOEKARNO RUN&#160;&#160;✦&#160;&#160;NGAWI SOEKARNO RUN&#160;&#160;✦&#160;&#160;NGAWI SOEKARNO RUN&#160;&#160;✦&#160;&#160;</span>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <section class="registration-section reveal" id="registration" aria-label="Registrasi">
+        <a href="category.html" class="registration-button">
+          Registration
+          <svg viewBox="0 0 40 40" aria-hidden="true">
+            <path d="M4 20h30"></path>
+            <path d="m22 8 12 12-12 12"></path>
+          </svg>
+        </a>
+      </section>
+
+      <section class="map-section reveal" aria-label="Peta lokasi venue">
+        <div class="map-card">
+          <iframe
+            class="map-frame"
+            title="Peta Lokasi Ngawi Soekarno Run"
+            src="https://maps.google.com/maps?q=Jl.%20Teuku%20Umar%20No.24%2C%20Kluncing%2C%20Ketanggi%2C%20Ngawi%2C%20Jawa%20Timur&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+          <a
+            class="map-link"
+            href="https://www.google.com/maps/search/?api=1&amp;query=Jl.%20Teuku%20Umar%20No.24%2C%20Kluncing%2C%20Ketanggi%2C%20Ngawi%2C%20Jawa%20Timur"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 21s-7-5.4-7-11a7 7 0 0 1 14 0c0 5.6-7 11-7 11Z"></path>
+              <circle cx="12" cy="10" r="2.6"></circle>
+            </svg>
+            Buka di Google Maps
+          </a>
+        </div>
+      </section>
+
+      <section class="venue-section reveal" id="lokasi">
+        <div class="venue-pin" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 21s-7-5.4-7-11a7 7 0 0 1 14 0c0 5.6-7 11-7 11Z"></path>
+            <circle cx="12" cy="10" r="2.6"></circle>
+          </svg>
+        </div>
+        <h2 class="venue-title">Lokasi Venue</h2>
+        <p class="venue-address">
+          Jl. Teuku Umar No.24, Kluncing, Ketanggi, Kec.
+          Ngawi, Kabupaten Ngawi, Jawa Timur
+        </p>
+      </section>
+
+    </div>
+
+    <footer class="footer">
+      <span class="footer-brand">Ngawi Soekarno Run</span>
+      <p class="footer-copy">© <span id="year">2026</span> Ngawi Soekarno Run. Seluruh hak cipta dilindungi.</p>
+    </footer>
+
+  </main>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Kembali ke atas">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path d="m7 20 9-9 9 9"></path>
+    </svg>
+  </button>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const header = document.getElementById("header");
+      const menuButton = document.getElementById("menuButton");
+      const menuPanel = document.getElementById("menuPanel");
+      const searchButton = document.getElementById("searchButton");
+      const searchBox = document.getElementById("searchBox");
+      const searchInput = document.getElementById("searchInput");
+      const toTop = document.getElementById("toTop");
+      const toast = document.getElementById("toast");
+      const yearEl = document.getElementById("year");
+
+      let toastTimer = 0;
+
+      const showToast = message => {
+        toast.textContent = message;
+        toast.classList.add("show");
+        window.clearTimeout(toastTimer);
+        toastTimer = window.setTimeout(() => toast.classList.remove("show"), 3200);
+      };
+
+      const closeMenu = () => {
+        menuPanel.classList.remove("show");
+        menuButton.setAttribute("aria-expanded", "false");
+      };
+
+      const closeSearch = () => {
+        searchBox.classList.remove("show");
+        searchButton.setAttribute("aria-expanded", "false");
+      };
+
+      menuButton.addEventListener("click", () => {
+        const open = menuPanel.classList.toggle("show");
+        menuButton.setAttribute("aria-expanded", String(open));
+        closeSearch();
+      });
+
+      searchButton.addEventListener("click", () => {
+        const open = searchBox.classList.toggle("show");
+        searchButton.setAttribute("aria-expanded", String(open));
+        closeMenu();
+        if (open) {
+          searchInput.focus();
+        }
+      });
+
+      document.addEventListener("click", event => {
+        const target = event.target;
+        if (!menuPanel.contains(target) && !menuButton.contains(target)) {
+          closeMenu();
+        }
+        if (!searchBox.contains(target) && !searchButton.contains(target)) {
+          closeSearch();
+        }
+      });
+
+      document.addEventListener("keydown", event => {
+        if (event.key !== "Escape") {
+          return;
+        }
+        const menuOpen = menuPanel.classList.contains("show");
+        const searchOpen = searchBox.classList.contains("show");
+        closeMenu();
+        closeSearch();
+        if (menuOpen) {
+          menuButton.focus();
+        }
+        if (searchOpen) {
+          searchButton.focus();
+        }
+      });
+
+      menuPanel.addEventListener("click", event => {
+        if (event.target.closest("a")) {
+          closeMenu();
+        }
+      });
+
+      searchBox.addEventListener("submit", event => {
+        event.preventDefault();
+        const query = searchInput.value.toLowerCase().trim();
+        if (!query) {
+          return;
+        }
+        const routes = [
+          {
+            keys: ["registrasi", "registration", "daftar"],
+            action: () => {
+              window.location.href = "category.html";
+            }
+          },
+          {
+            keys: ["lokasi", "venue", "alamat"],
+            action: () => {
+              document.getElementById("lokasi").scrollIntoView({
+                behavior: "smooth"
+              });
+              closeSearch();
+            }
+          }
+        ];
+        const match = routes.find(route => route.keys.some(key => query.includes(key)));
+        if (match) {
+          match.action();
+        } else {
+          showToast("Halaman tidak ditemukan. Silakan coba kata kunci lain.");
+        }
+      });
+
+      let ticking = false;
+
+      const onScroll = () => {
+        if (ticking) {
+          return;
+        }
+        ticking = true;
+        window.requestAnimationFrame(() => {
+          header.classList.toggle("scrolled", window.scrollY > 48);
+          toTop.classList.toggle("show", window.scrollY > 600);
+          ticking = false;
+        });
+      };
+
+      window.addEventListener("scroll", onScroll, {
+        passive: true
+      });
+      onScroll();
+
+      toTop.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      });
+
+      const revealElements = document.querySelectorAll(".reveal");
+
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: .14,
+          rootMargin: "0px 0px -8% 0px"
+        });
+        revealElements.forEach(element => observer.observe(element));
+      } else {
+        revealElements.forEach(element => element.classList.add("in-view"));
+      }
+
+      yearEl.textContent = new Date().getFullYear();
+    })();
+  </script>
+
+</body>
+</html>
